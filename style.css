@@ -1,0 +1,212 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+/* header design and menu bar style */
+header{
+    /* margin: 0;
+    padding: 0; */
+    background-color: #562EFF;
+    height: 94px;
+}
+nav{
+    width: 70%;
+    margin: 0 auto;
+    /* padding: 26px 17px; */
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 51px;
+    width: 42.2px;
+}
+.logo p{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    padding-left: 10px;
+}
+/* navigation menu bar */
+.menubar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menubar ul li{
+    padding: 0px 18px;
+    list-style: none;
+}
+.menubar ul li a{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+.menubar img{
+    width: 51px;
+    height: 51px;
+}
+
+/* top session contain top playerNameImage and blogs */
+.topSection{
+    width: 70%;
+    margin: 36px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.topSection hr{
+    margin: 0 auto;
+    width: 90%;
+    height: 1px;
+    border: 0px;
+    background-image: linear-gradient(90deg, rgba(211, 206, 206, 0.192),rgb(211, 199, 199),rgba(211, 206, 206, 0.192));
+}
+
+/* playerNameImage */
+.topPlayer{
+    padding: 30px;
+    margin: 0;
+}
+.topPlayer h2, .topBlogs h2, .latesCourse h2{
+    margin: 0;
+    padding-bottom: 15px;
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+.playerNameImage{
+    display: grid;
+    /* grid-template: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 29px;
+}
+.playerNameImage div{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.playerNameImage div img{
+    margin: 0;
+    width: 56px;
+    height: 56px;
+}
+.topPlayer div h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+/* top blogs */
+.topBlogs{
+    padding: 30px;
+    margin: 0;
+}
+.blogsNameImage{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 26px;
+}
+.imageAndDec{
+    display: flex;
+}
+.imageAndDec img{
+    width: 177px;
+    height: 117px;
+}
+.imageAndDec div{
+    padding-left: 16px;
+}
+.imageAndDec div h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.imageAndDec div p{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.imageAndDec div p a{
+    color: #562EFF;
+    text-decoration: none;
+}
+
+
+/*  Lates Course */
+.latesCourse{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.latesCourse h2{
+    padding: 30px 0px 0px 30px;
+}
+.courseImageAndDes{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 30px;
+}
+/* box shadow */
+.course{
+    /* width: 253px; */
+    height: 270px;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.418);
+}
+.courseImageAndDes div img{
+    /* width: 214px; */
+    height: 104px;
+}
+.courseDescription{
+    padding-top: 19px;
+}
+.courseDescription h4{
+    margin: 0px;
+    font-size: 17px;
+    padding: 5px 0px;
+    font-weight: 600;
+}
+.courseDescription p{
+    font-size: 14px;
+    color:#ED6B4F;
+    margin: 0px;
+}
+/*------------- 
+        ratting and time
+--------------------------------*/
+
+.ratting{
+    color: #A2A2A2;
+}
+.rattingAndDuration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rattingAndDuration p{
+    color:#FFC014;
+}
+.rattingAndDuration .grayStar{
+    color:gray;
+}
+.clockAndTime{
+    color: #ED6B4F;
+    background-color: #FFE4E8;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.clock, .time{
+    color: #ED6B4F;
+}
